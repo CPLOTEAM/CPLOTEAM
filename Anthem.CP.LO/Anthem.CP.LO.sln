@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem.CP.LO.WebApp", "Anthem.CP.LO.WebApp\Anthem.CP.LO.WebApp.csproj", "{A34E628A-8FB3-46A3-996B-30499EBAEB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem.CP.LO.WCFService", "Anthem.CP.LO.WCFService\Anthem.CP.LO.WCFService.csproj", "{94ACEBB3-30A8-47F6-8A13-683A7ACFFECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem.CP.LO.WCFServiceProxy", "Anthem.CP.LO.WCFServiceProxy\Anthem.CP.LO.WCFServiceProxy.csproj", "{F7E4F09B-A473-480A-9E92-068A02B44D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34E628A-8FB3-46A3-996B-30499EBAEB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34E628A-8FB3-46A3-996B-30499EBAEB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34E628A-8FB3-46A3-996B-30499EBAEB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34E628A-8FB3-46A3-996B-30499EBAEB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ACEBB3-30A8-47F6-8A13-683A7ACFFECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ACEBB3-30A8-47F6-8A13-683A7ACFFECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ACEBB3-30A8-47F6-8A13-683A7ACFFECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ACEBB3-30A8-47F6-8A13-683A7ACFFECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E4F09B-A473-480A-9E92-068A02B44D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E4F09B-A473-480A-9E92-068A02B44D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E4F09B-A473-480A-9E92-068A02B44D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E4F09B-A473-480A-9E92-068A02B44D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

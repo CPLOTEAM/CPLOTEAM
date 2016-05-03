@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CPLO.master.cs" Inherits="Anthem.CP.LO.WebApp.CPLO" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="Styles/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Styles/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.7.1.js"></script>
+    <script src="Styles/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="img-rounded">
+            <img src="Images/ABCBS_Logo.png" alt="logo" />
+        </div>
+        <div class="page-header"></div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" id="ulmenu">
+                        <li id="LoginNav"><a href="default.aspx">Login</a></li>
+                        <li id="RegistrationNav"><a href="registration.aspx">Registration</a></li>
+                        <li id="ClaimsNav"><a href="claims.aspx">Claims</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="list-group col-md-2">
+                <div class="row">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-bookmark"></span>Useful links
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>Registration
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-briefcase"></span>Claims
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-search"></span>Provider Search
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-phone"></span>Customer Support
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-phone"></span>Useful tools
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>Find a Doctor
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>Find Urgent care
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <span class="glyphicon glyphicon-file"></span>Prescription benefits
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2015 Anthem Insurance Companies, Inc.</p>
+        </footer>
+    </div>
+</body>
+</html>

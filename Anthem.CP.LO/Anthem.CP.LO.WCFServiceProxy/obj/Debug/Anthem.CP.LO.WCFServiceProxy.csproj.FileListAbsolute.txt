@@ -1,0 +1,5 @@
+C:\Users\durgesh.k.gupta\Documents\visual studio 2012\Projects\Anthem.CP.LO\Anthem.CP.LO.WCFServiceProxy\bin\Debug\Anthem.CP.LO.WCFServiceProxy.dll
+C:\Users\durgesh.k.gupta\Documents\visual studio 2012\Projects\Anthem.CP.LO\Anthem.CP.LO.WCFServiceProxy\bin\Debug\Anthem.CP.LO.WCFServiceProxy.pdb
+C:\Users\durgesh.k.gupta\Documents\visual studio 2012\Projects\Anthem.CP.LO\Anthem.CP.LO.WCFServiceProxy\obj\Debug\Anthem.CP.LO.WCFServiceProxy.csprojResolveAssemblyReference.cache
+C:\Users\durgesh.k.gupta\Documents\visual studio 2012\Projects\Anthem.CP.LO\Anthem.CP.LO.WCFServiceProxy\obj\Debug\Anthem.CP.LO.WCFServiceProxy.dll
+C:\Users\durgesh.k.gupta\Documents\visual studio 2012\Projects\Anthem.CP.LO\Anthem.CP.LO.WCFServiceProxy\obj\Debug\Anthem.CP.LO.WCFServiceProxy.pdb
