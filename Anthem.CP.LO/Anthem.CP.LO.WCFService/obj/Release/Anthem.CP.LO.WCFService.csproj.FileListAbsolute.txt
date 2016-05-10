@@ -1,0 +1,6 @@
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\bin\Anthem.CP.LO.WCFService.dll.config
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\bin\Anthem.CP.LO.WCFService.dll
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\bin\Anthem.CP.LO.WCFService.pdb
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Release\Anthem.CP.LO.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Release\Anthem.CP.LO.WCFService.dll
+C:\Users\giridharan.arul\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Release\Anthem.CP.LO.WCFService.pdb
