@@ -11,9 +11,11 @@ namespace Anthem.CP.LO.WCFService.ServiceRepository
         private const string addUserUrl = "data/addnewuser";
         public RegisterUserResponse AddNewUser(RegisterUserRequest request)
         {
-            RegisterUserResponse response = new RegisterUserResponse();
             var coreResponse = RESTWebHttpClient.MakePutRequest<RegisterUserRequest, RegisterUserResponse>(addUserUrl, request);
-            return response;
+            if (coreResponse != null)
+                return (RegisterUserResponse)coreResponse;
+            else
+                return new RegisterUserResponse { Success = false };
         }
     }
 }

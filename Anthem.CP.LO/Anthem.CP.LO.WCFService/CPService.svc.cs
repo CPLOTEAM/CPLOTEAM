@@ -22,15 +22,14 @@ namespace Anthem.CP.LO.WCFService
         public RegisterUserResponse RegisterUser(RegisterUserRequest request)
         {
             CoreCPService coreService = new CoreCPService();
-            var response = coreService.AddNewUser(new DataContracts.OutBound.RegisterUserRequest()
-            {
-                MessageId = (string.IsNullOrEmpty(request.MessageId) ? Guid.NewGuid().ToString() : request.MessageId),
+            var response = coreService.AddNewUser(new DataContracts.OutBound.RegisterUserRequest
+            {                
                 firstName = request.UserInfo.FirstName.Trim(),
                 lastName = request.UserInfo.LastName.Trim(),
                 emailId = request.UserInfo.Email.Trim(),
                 password = request.UserInfo.Password.Trim()
             });
-            if (response == null)
+            if (response == null || !response.Success)
             {
                 return new RegisterUserResponse()
                 {

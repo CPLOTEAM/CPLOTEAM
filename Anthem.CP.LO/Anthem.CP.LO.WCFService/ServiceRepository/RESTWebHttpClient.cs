@@ -49,7 +49,7 @@ namespace Anthem.CP.LO.WCFService.ServiceRepository
             }
             catch (Exception e)
             {
-                objResponse.Success = false;
+              
             }
             return objResponse;
         }

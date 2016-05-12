@@ -9,6 +9,7 @@ namespace Anthem.CP.LO.WCFService.DataContracts.InBound
     [DataContract]
     public class RegisterUserResponse : IInBoundResponse
     {
+        [DataMember]
         public string UserId { get; set; }
         [DataMember]
         public bool Success { get; set; }
