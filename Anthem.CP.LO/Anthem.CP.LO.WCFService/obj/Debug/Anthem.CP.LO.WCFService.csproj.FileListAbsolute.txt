@@ -8,3 +8,8 @@ C:\Users\giridharan.arul\Documents\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService
 C:\Users\giridharan.arul\Documents\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.csprojResolveAssemblyReference.cache
 C:\Users\giridharan.arul\Documents\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.dll
 C:\Users\giridharan.arul\Documents\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.pdb
+C:\Users\durgesh.k.gupta\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\bin\Anthem.CP.LO.WCFService.dll
+C:\Users\durgesh.k.gupta\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\bin\Anthem.CP.LO.WCFService.pdb
+C:\Users\durgesh.k.gupta\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\durgesh.k.gupta\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.dll
+C:\Users\durgesh.k.gupta\Documents\GitHub\CPLOTEAM\Anthem.CP.LO\Anthem.CP.LO.WCFService\obj\Debug\Anthem.CP.LO.WCFService.pdb

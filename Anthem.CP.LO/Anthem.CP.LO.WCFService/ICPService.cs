@@ -1,4 +1,4 @@
-﻿using Anthem.CP.LO.WCFService.DataContracts;
+﻿using Anthem.CP.LO.WCFService.DataContracts.InBound;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +15,15 @@ namespace Anthem.CP.LO.WCFService
     {
 
         [OperationContract]
-        ValidateUserResponse ValidateUser(string username, string password);
+        [WebInvoke(Method = "POST", UriTemplate = "Users/Validate", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        ValidateUserResponse ValidateUser(ValidateUserRequest request);
 
         [OperationContract]
+        [WebInvoke(Method = "POST", UriTemplate = "Users/AddNew", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         RegisterUserResponse RegisterUser(RegisterUserRequest request);
-        // TODO: Add your service operations here
-    }    
+
+        [OperationContract]
+        [WebGet(UriTemplate = "Users", ResponseFormat = WebMessageFormat.Json)]
+        GetUsersResponse GetUsers();
+    }
 }

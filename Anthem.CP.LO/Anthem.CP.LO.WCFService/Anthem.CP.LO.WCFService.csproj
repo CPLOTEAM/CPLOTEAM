@@ -64,16 +64,30 @@
       <DependentUpon>CPService.svc</DependentUpon>
     </Compile>
     <Compile Include="DataContracts\Error.cs" />
+    <Compile Include="DataContracts\Inbound\Error.cs" />
+    <Compile Include="DataContracts\Inbound\GetUsersResponse.cs" />
+    <Compile Include="DataContracts\Inbound\IInBoundRequest.cs" />
+    <Compile Include="DataContracts\Inbound\IInBoundResponse.cs" />
+    <Compile Include="DataContracts\Inbound\RegisterUserRequest.cs" />
+    <Compile Include="DataContracts\Inbound\RegisterUserResponse.cs" />
+    <Compile Include="DataContracts\Inbound\User.cs" />
+    <Compile Include="DataContracts\Inbound\ValidateUserRequest.cs" />
+    <Compile Include="DataContracts\Inbound\ValidateUserResponse.cs" />
     <Compile Include="DataContracts\IResponse.cs" />
+    <Compile Include="DataContracts\OutBound\IOutBoundRequest.cs" />
+    <Compile Include="DataContracts\OutBound\IOutBoundResponse.cs" />
+    <Compile Include="DataContracts\OutBound\RegisterUserRequest.cs" />
+    <Compile Include="DataContracts\OutBound\RegisterUserResponse.cs" />
     <Compile Include="DataContracts\ValidateUserResponse.cs" />
     <Compile Include="ICPService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataContracts\RegisterUserRequest.cs" />
     <Compile Include="DataContracts\RegisterUserResponse.cs" />
+    <Compile Include="ServiceRepository\CoreCPService.cs" />
+    <Compile Include="ServiceRepository\ICoreCPService.cs" />
+    <Compile Include="ServiceRepository\RESTWebHttpClient.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
