@@ -64,16 +64,21 @@
       <DependentUpon>CPService.svc</DependentUpon>
     </Compile>
     <Compile Include="DataContracts\Error.cs" />
-    <Compile Include="DataContracts\Inbound\Error.cs" />
-    <Compile Include="DataContracts\Inbound\GetUsersResponse.cs" />
-    <Compile Include="DataContracts\Inbound\IInBoundRequest.cs" />
-    <Compile Include="DataContracts\Inbound\IInBoundResponse.cs" />
-    <Compile Include="DataContracts\Inbound\RegisterUserRequest.cs" />
-    <Compile Include="DataContracts\Inbound\RegisterUserResponse.cs" />
-    <Compile Include="DataContracts\Inbound\User.cs" />
-    <Compile Include="DataContracts\Inbound\ValidateUserRequest.cs" />
-    <Compile Include="DataContracts\Inbound\ValidateUserResponse.cs" />
+    <Compile Include="DataContracts\InBound\ClaimSearchRequest.cs" />
+    <Compile Include="DataContracts\InBound\ClaimSearchResponse.cs" />
+    <Compile Include="DataContracts\InBound\Error.cs" />
+    <Compile Include="DataContracts\InBound\GetUsersResponse.cs" />
+    <Compile Include="DataContracts\InBound\IInBoundRequest.cs" />
+    <Compile Include="DataContracts\InBound\IInBoundResponse.cs" />
+    <Compile Include="DataContracts\InBound\RegisterUserRequest.cs" />
+    <Compile Include="DataContracts\InBound\RegisterUserResponse.cs" />
+    <Compile Include="DataContracts\InBound\User.cs" />
+    <Compile Include="DataContracts\InBound\ValidateUserRequest.cs" />
+    <Compile Include="DataContracts\InBound\ValidateUserResponse.cs" />
     <Compile Include="DataContracts\IResponse.cs" />
+    <Compile Include="DataContracts\OutBound\ClaimSearchRequest.cs" />
+    <Compile Include="DataContracts\OutBound\ClaimSearchResponse.cs" />
+    <Compile Include="DataContracts\OutBound\Enums.cs" />
     <Compile Include="DataContracts\OutBound\IOutBoundRequest.cs" />
     <Compile Include="DataContracts\OutBound\IOutBoundResponse.cs" />
     <Compile Include="DataContracts\OutBound\RegisterUserRequest.cs" />

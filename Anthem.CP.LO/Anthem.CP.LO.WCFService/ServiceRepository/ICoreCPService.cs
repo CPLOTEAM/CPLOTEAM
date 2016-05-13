@@ -9,5 +9,6 @@ namespace Anthem.CP.LO.WCFService.ServiceRepository
     interface ICoreCPService
     {
         RegisterUserResponse AddNewUser(RegisterUserRequest request);
+        ClaimSearchResponse SearchClaim(ClaimSearchRequest request);
     }
 }

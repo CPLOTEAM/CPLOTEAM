@@ -25,5 +25,9 @@ namespace Anthem.CP.LO.WCFService
         [OperationContract]
         [WebGet(UriTemplate = "Users", ResponseFormat = WebMessageFormat.Json)]
         GetUsersResponse GetUsers();
+
+        [OperationContract]
+        [WebInvoke(UriTemplate = "Claims/Search", ResponseFormat = WebMessageFormat.Json)]
+        ClaimSearchResponse SearchClaim(ClaimSearchRequest request);
     }
 }

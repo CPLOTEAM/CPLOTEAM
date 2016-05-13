@@ -23,7 +23,7 @@ namespace Anthem.CP.LO.WCFService
         {
             CoreCPService coreService = new CoreCPService();
             var response = coreService.AddNewUser(new DataContracts.OutBound.RegisterUserRequest
-            {                
+            {
                 firstName = request.UserInfo.FirstName.Trim(),
                 lastName = request.UserInfo.LastName.Trim(),
                 emailId = request.UserInfo.Email.Trim(),
@@ -57,6 +57,33 @@ namespace Anthem.CP.LO.WCFService
                     new User{ Id="2",FirstName="Test",LastName="Test",Email="Test@Test.com"},
                 }
             };
+        }
+
+        public ClaimSearchResponse SearchClaim(ClaimSearchRequest request)
+        {
+            CoreCPService coreService = new CoreCPService();
+            var response = coreService.SearchClaim(new DataContracts.OutBound.ClaimSearchRequest
+            {
+                Id = request.Id
+            });
+            if (response == null || !response.Success)
+            {
+                return new ClaimSearchResponse()
+                {
+                    Success = false,
+                    Errors = new List<Error>() { new Error { Code = 500, Message = response.message } }
+                };
+            }
+            else
+            {
+                return new ClaimSearchResponse()
+                {
+                    Success = true,
+                    ClaimId = response.claimid,
+                    ClaimStatus = response.claimStatus,
+                    ClaimType = response.claimtype
+                };
+            }
         }
     }
 }
