@@ -45,10 +45,10 @@
                         <a href="#" class="list-group-item active">
                             <span class="glyphicon glyphicon-bookmark"></span>Useful links
                         </a>
-                        <a href="#" class="list-group-item">
+                        <a href="registration.aspx" class="list-group-item">
                             <span class="glyphicon glyphicon-file"></span>Registration
                         </a>
-                        <a href="#" class="list-group-item">
+                        <a href="claims.aspx" class="list-group-item">
                             <span class="glyphicon glyphicon-briefcase"></span>Claims
                         </a>
                         <a href="#" class="list-group-item">
